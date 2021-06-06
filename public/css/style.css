@@ -1,0 +1,666 @@
+*{  
+    font-family: 'Montserrat', sans-serif;
+}
+.row {
+    --bs-gutter-x: -0.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.hideLogo{
+    width: 0px;
+    opacity: 0;
+    position: absolute;
+}
+.widthLogo{
+    width: 80%;
+    padding-top: 2px;
+    padding-left: 4rem;
+    margin-bottom: 15px;
+}
+.widthHandBag{
+    width: 30%;
+}
+.widthFootwear{
+    width: 25%;
+}
+.bannerHandBag{
+    width: 100%;
+    height: 600px;
+}
+.widthSun{
+    width: 40%;
+}
+.widthAbout{
+    width: 38%;
+}
+.widthBannerAbout{
+    width: 100%;
+    height: 600px;
+}
+.widthJeans{
+    width: 95%;
+}
+.widthJacket{
+    width: 95%;
+}
+.widthLeg{
+    width: 95%;
+}
+.widthFooter{
+    width: 100%;
+}
+.widthLogoEnd{
+    width: 160px;
+    margin-bottom: 12px;
+}
+.contain{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.justify-content{
+    display: inline-block;
+}
+.navX{
+    background: #1b1b1b;
+}
+.link{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.pad{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.link:hover{
+    color: #998a7f;
+}
+.cir{
+    padding: 0px;
+    padding-top: 3px;
+    padding-left: 9px;
+    padding-right: 8px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.let{
+    position: relative;
+    text-align: center;
+    overflow:hidden;
+}
+.chover{
+    color: black;
+}
+.chover:hover{
+    color: #998a7f;
+}
+.slidefont{
+    position: absolute;
+    bottom: 35%;
+    text-align: center;
+    font-weight: bold;
+    width:100%;
+    font-size: 200%;
+}
+
+.shopnow{
+    text-decoration: none;
+    color: white;
+    background: #998a7f;
+    list-style-type: none;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.ho:hover{
+    background: black;
+    color: white;
+}
+.diva{
+    border:1px solid #3e2b17;
+    width:300px;
+    height:280px;
+    position:absolute;
+    transform: rotate(135deg);
+
+    margin-top: 6%;
+    margin-left: 35%;
+
+    text-align: center;
+    overflow:hidden;
+}
+.dn{
+    margin-top: 5%;
+    margin-bottom: 20%;
+    padding-left: 50%;
+}
+.bootpad{
+    padding-left: 20%;
+    padding-top: 0%;
+}
+.aa{
+    margin: -130px 0px 0px 15%;  
+    position: absolute;
+}
+.hbs{
+    margin: -166px 0px 0px 50%;  
+    position: absolute;
+}
+.handbags{
+    color: white;
+    padding-left: 30%;
+    padding-top: 15%;
+    position: absolute;
+}
+.glass{
+    margin: -90px 0px 0px 15%;  
+    position: absolute;
+}
+.glasstext{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-left:65%;
+}
+.gachweek{
+    border:1px solid #613d24;
+    width:100px;
+    height:100px;
+    position:absolute;
+    transform: rotate(135deg);
+    margin-top: 1%;
+    text-align: center;
+    overflow:hidden;
+}
+.weekly{
+    padding-left: 1px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.bgweek{
+    background: #f0f0f0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.containWeek{
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.price{
+    padding-left: 5%;
+}
+.select{
+    background: #998a7f;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;   
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.select:hover{
+    color: white;
+    background: black;
+}
+.star{
+    font-size: 10px;
+    letter-spacing: -1.5px;
+    color: #998a7f;
+}
+.jean{
+    text-decoration: none;
+    color: #998a7f;
+}
+.jean:hover{
+    color: black;
+}
+.ico{
+    padding: 10px;
+    background: white;
+    font-size: 11px;
+    text-align: end;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 17px;
+    margin-top: 20px;
+}
+
+.o-hide {
+    opacity: 0;
+    transition: all ease 0.5s;  
+}
+.hideShow{
+    opacity: 1; 
+}
+.eye{
+    color: black;
+    text-decoration: none;
+}
+.eye:hover{
+    background: #998a7f;
+    color: white;
+}
+/* .hover-1-trichdan {
+    transform: translateY(0.5rem);
+    transition: all 0.5s;
+    opacity: 0;
+}
+.hover-1-trichdan:hover {
+    opacity: 1;
+    transform: none;
+} */
+.picabout{
+    margin:106px 0px -141px 15%;
+    position: absolute;
+}
+.about{
+    position: absolute;
+    color: white;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: 6%;
+}
+.textabout{
+    padding-top: 15%;
+    font-size: 15px;
+    color: #a68a7f;
+}
+.gachAbout{
+    border:1px solid #a68a7f;;
+    width:280px;
+    height:280px;
+    position:absolute;
+    transform: rotate(135deg);
+
+    margin-top: 34%;
+    margin-left: 42%;
+
+    text-align: center;
+    overflow:hidden;
+}
+.gachAboutSmall{
+    border:1px solid #a68a7f;
+    width:100px;
+    height:100px;
+    position:absolute;
+    transform: rotate(135deg);
+    margin-top: 10%;
+    margin-left: 75%;
+    text-align: center;
+    overflow:hidden;
+}
+.fromBlog{
+    padding-top: 5% ;
+    padding-bottom: 5% ;
+    padding-left: 15%;
+}
+.gachBlog{
+    border:1px solid #a68a7f;
+    width:100px;
+    height:100px;
+    position:absolute;
+    transform: rotate(135deg);
+    margin-top: 6%;
+    margin-left: 15%;
+    text-align: center;
+    overflow:hidden;
+}
+.end{
+    position: absolute;
+    color: white;
+}
+.containEnd{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+}
+.tags{
+    text-decoration: none;
+    color: #998a7f;
+}
+.tags:hover{
+    color: white;
+}
+.textTag{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 12px;
+}
+.tel{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.tel:hover{
+    color: #998a7f;
+}
+.telnum{
+    color: #919191;
+}
+.telnum:hover{
+    color: black;
+}
+.padTag{
+    margin-top: 15px;
+}
+.gachTag{
+    border:1px solid #613d24;
+    width:100px;
+    height:100px;
+    position:absolute;
+    transform: rotate(135deg);
+    margin-top: 1%;
+    margin-left: -3%;
+    text-align: center;
+    overflow:hidden;
+}
+.tagLeft{
+    padding-right: 20px;
+}
+.login{
+    display: flex;
+    
+   
+}
+@media (max-width: 768px) { 
+    .menu{
+        padding-bottom: 15px;
+    }
+    .widthLogo{
+        width: 0px;
+        opacity: 0;
+    }
+    .mobileHome{
+        padding-left: 20px;
+    }  
+    .mobileCompare{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .mobileLoginSeach{
+        margin-left: -30px;
+    }
+    .mobileCart{
+        margin-left: -10px;
+    }
+    .contain{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .diva{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .gachweek{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .gachAbout{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .gachAboutSmall{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .gachBlog{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .gachTag{
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+    .aa{
+        margin: 15% 5% 0px 5%;  
+        position: relative;
+        width: 40%;
+    }
+    .dn{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-left: 5%;
+        padding-top: 50%;
+        /* display: inline; */
+    }
+    .flexFoot{
+        display: flex;
+    }
+    .textFootwear{
+        font-size: 12px;
+        margin-left: -30px;
+    }
+    .picSlide{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        /* Xoa vien anh */
+    }
+    .slidefont{
+        bottom: 38%;
+    }
+    .sizeFontSlide{
+        font-size: 20px !important;
+    }
+    .sizeFontSlide2{
+        font-size: 13px !important;
+    }
+    .shopnow {
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 13px;
+    }
+    .hbs{
+        margin: 10% 0px 0px 50%;
+        width: 45%;
+        position: absolute;
+    }
+    .handbags{
+        padding-left: 20px;
+        padding-top: 105px;
+    }
+    .h4HanhdBag{
+        margin-left: -70px;
+    }
+    .bannerHandBag{
+        width: 100%;
+        height: 273px;
+    }
+    
+    .glass {
+        margin: 15% 0px 0px 5%;
+        position: absolute;
+        width: 50%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .glasstext {
+        margin-top: 35%;
+        margin-bottom: 35%;
+        padding-left: 57%;
+    }
+    .textCollection{
+        margin-left: -70px;
+    }
+    .containWeek {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .o-hide {
+        opacity: 1;
+        
+    }
+    .mobileEye{
+        margin-left: 62% !important;
+    }
+    .bgweek {
+        margin-top: 20%;
+    }
+    .bannerAbout{
+        width: 100%;
+        height: 1200px;
+    }
+    .picabout{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        
+    }
+    .about {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 111%;
+    }
+    .textabout {
+        padding-top: 10%;
+        font-size: 12px;
+        color: #a68a7f;
+    }
+    .fromBlog {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+    }
+    .imgStudent{
+        padding-left: 20% !important;
+        width: 130%;
+    }
+    .imgEstablishing{
+        padding-left: 15% !important;
+        width: 105.5%;
+    }
+    .textMonth{
+        font-size: 10px !important;
+    }
+    .textNameBlog{
+        font-size: 15px !important;
+    }
+    .textStudent{
+        margin-top: -10%;
+    }
+    .textEstablishing{
+        margin-top: -10%;
+        margin-left: -8%;
+    }
+    .picEnd{
+        width: 100%;
+        height: 1000px;
+    }
+    .containEnd {
+        margin-left: 7%;
+        margin-right: 0%;
+        margin-top: 15%;
+    }
+    .logoEnd{
+        width:150px;
+    }
+    .mobileEnd{
+        font-size: 10px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1268px) {  
+    .mobileLoginSeach{
+        margin-left: -30px;
+    }
+    .mobileCart{
+        margin-left: -10px;
+    }
+    .contain{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .mobileEye{
+        margin-left: -7% !important;
+    }
+    .ico {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .bannerAbout{
+        width: 100%;
+        height: 600px;
+    }
+    .picEnd{
+        width: 100%;
+        height: 450px;
+    }
+    
+}  
+@media (max-width: 468px){  
+    .bannerAbout{
+        width: 100%;
+        height: 800px;
+    }
+    .getUpTo{
+        font-size: 13px ;
+    }
+    .sunglasses{
+        font-size: 18px ;
+    }
+}  
+@media (max-width: 990px) {
+    .hideLogo{
+        width: 140px;
+        opacity: 1;
+        margin-left: 22%;
+        margin-top: 15px;
+    }
+}
+@media (min-width: 468px) and (max-width:1268px){  
+    .textStudent {
+        margin-top: -10%;
+        margin-left: 10%;
+        margin-right: -10%;
+        
+    }
+    .imgStudent{
+        padding-left: 22%;
+    }
+    .imgEstablishing{
+        padding-left: 16% !important;
+        margin-left: 2% !important;
+    }
+    .textEstablishing{
+        margin-top: -9%;
+        margin-left: 2%;
+        margin-right: -10%;
+    }
+} 
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
