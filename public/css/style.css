@@ -543,7 +543,7 @@
     }
     .imgEstablishing{
         padding-left: 15% !important;
-        width: 105.5%;
+        width: 108.5%;
     }
     .textMonth{
         font-size: 10px !important;
@@ -553,6 +553,8 @@
     }
     .textStudent{
         margin-top: -10%;
+        margin-left: -8%;
+        padding-left: 5%;
     }
     .textEstablishing{
         margin-top: -10%;
