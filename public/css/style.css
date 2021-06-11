@@ -552,6 +552,8 @@ ol, ul {
     .imgEstablishing{
         padding-left: 12% !important;
         width: 104.5%;
+        padding-left: 15% !important;
+        width: 108.5%;
     }
     .textMonth{
         font-size: 10px !important;
@@ -562,6 +564,8 @@ ol, ul {
     .textStudent{
         padding-left: 14%;
         margin-top: -10%;
+        margin-left: -8%;
+        padding-left: 5%;
     }
     .textEstablishing{
         margin-top: -10%;
