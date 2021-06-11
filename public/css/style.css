@@ -8,11 +8,7 @@ ol, ul {
     --bs-gutter-x: -0.5rem;
     --bs-gutter-y: 0;
 }
-.hideLogo{
-    width: 0px;
-    opacity: 0;
-    position: absolute;
-}
+
 .widthLogo{
     width: 80%;
     padding-top: 2px;
@@ -252,15 +248,6 @@ ol, ul {
     background: #998a7f;
     color: white;
 }
-/* .hover-1-trichdan {
-    transform: translateY(0.5rem);
-    transition: all 0.5s;
-    opacity: 0;
-}
-.hover-1-trichdan:hover {
-    opacity: 1;
-    transform: none;
-} */
 .picabout{
     margin:106px 0px -141px 15%;
     position: absolute;
@@ -370,9 +357,7 @@ ol, ul {
     padding-right: 20px;
 }
 .login{
-    display: flex;
-    
-   
+    display: flex;   
 }
 .textEstablishing{
     padding-left: 5%;
@@ -383,13 +368,6 @@ ol, ul {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .widthLogo{
-        width: 0px;
-        opacity: 0;
-    }
-    .mobileHome{
-        padding-left: 20px;
-    }  
     .mobileCompare{
         padding-left: 5px;
         padding-right: 5px;
@@ -444,7 +422,6 @@ ol, ul {
         margin-bottom: 5%;
         padding-left: 5%;
         padding-top: 50%;
-        /* display: inline; */
     }
     .flexFoot{
         display: flex;
@@ -489,8 +466,7 @@ ol, ul {
     .bannerHandBag{
         width: 100%;
         height: 273px;
-    }
-    
+    }   
     .glass {
         margin: 15% 0px 0px 5%;
         position: absolute;
@@ -511,8 +487,7 @@ ol, ul {
         margin-right: 5%;
     }
     .o-hide {
-        opacity: 1;
-        
+        opacity: 1;        
     }
     .mobileEye{
         margin-left: 62% !important;
@@ -527,8 +502,7 @@ ol, ul {
     .picabout{
         margin-top: 5%;
         margin-left: 5%;
-        width: 90%;
-        
+        width: 90%;       
     }
     .about {
         margin-left: 8%;
@@ -544,33 +518,13 @@ ol, ul {
         padding-top: 5%;
         padding-bottom: 5%;
         padding-left: 12%;
-    }
-    .imgStudent{
-        padding-left: 15% !important;
-        width: 125%;
-    }
-    .imgEstablishing{
-        padding-left: 12% !important;
-        width: 104.5%;
-        padding-left: 15% !important;
-        width: 108.5%;
-    }
+    }   
     .textMonth{
         font-size: 10px !important;
     }
     .textNameBlog{
         font-size: 15px !important;
-    }
-    .textStudent{
-        padding-left: 14%;
-        margin-top: -10%;
-        margin-left: -8%;
-        padding-left: 5%;
-    }
-    .textEstablishing{
-        margin-top: -10%;
-        padding-left: 6%;
-    }
+    }  
     .picEnd{
         width: 100%;
         height: 1000px;
@@ -586,9 +540,7 @@ ol, ul {
     .mobileEnd{
         font-size: 10px;
     }
-    .textEstablishing {
-        padding-left: 6%;
-    }
+    
 }
 @media (min-width: 768px) and (max-width: 1268px) {  
     .mobileLoginSeach{
@@ -635,42 +587,6 @@ ol, ul {
         padding-left: 6%;
     }
 }  
-@media (max-width: 1268px) {
-    .hideLogo{
-        width: 140px;
-        opacity: 1;
-        margin-left: 40%;
-        margin-top: -14px;
-    }
-}
-@media (min-width: 468px) and (max-width:1268px){  
-    .textStudent {
-        margin-top: -10%;
-        padding-left: 20%;
-        margin-right: -10%;
-        
-    }
-    .imgStudent{
-        padding-left: 30% !important;
-    }
-    .imgEstablishing{
-        padding-left: 25% !important;
-        margin-left: 0% !important;
-    }
-    .textEstablishing{
-        margin-top: -9%;
-        padding-left: 13%;
-        margin-right: -10%;
-    }
-} 
-@media (min-width: 1268px) and (max-width: 1400px){  
-    .textStudent {
-        padding-left: 5%;        
-    }
-    .textEstablishing{
-        padding-left: 10%;
-    }
-} 
 @media (min-width: 568px) and (max-width: 668px){  
     .bannerAbout {
         width: 100%;
@@ -683,12 +599,142 @@ ol, ul {
         height: 900px;
     }
 } 
+
+/* reponsive from the blog */
+@media (max-width: 468px){  
+    .imgStudent {
+        width: 150%;   
+        margin-left: -25%;     
+    }
+    .textStudent{
+        padding-left: 15%;
+        margin-top: -10%;
+    }
+    .imgEstablishing{
+        width: 152%;   
+        margin-left: -48%;  
+    }
+    .textEstablishing{
+        padding-left: 7%;
+        margin-top: -10%;
+    }
+    .hideLogo{
+        margin-left: 20px;
+        margin-top: -15px;
+        width: 144px;
+        position:absolute;
+    }
+} 
+@media (min-width: 468px) and (max-width: 668px){  
+    .fromBlog {
+        padding-left: 7%;
+    }
+    .imgStudent {
+        width: 150%;   
+        margin-left: -25%;     
+    }
+    .textStudent{
+        padding-left: 20%;
+        margin-top: -10%;
+    }
+    .imgEstablishing{
+        width: 153%;   
+        margin-left: -48%;  
+    }
+    .textEstablishing{
+        padding-left: 12%;
+        margin-top: -10%;
+    }
+    .hideLogo{
+        margin-left: 32%;
+        margin-top: -15px;
+        width: 144px;
+        position:absolute;
+    }
+}     
+@media (min-width: 668px) and (max-width: 868px){  
+    .fromBlog {
+        padding-left: 7%;
+    }
+    .imgStudent {
+        width: 150%;   
+        margin-left: -25%;     
+    }
+    .textStudent{
+        padding-left: 20%;
+        margin-top: -9%;
+    }
+    .imgEstablishing{
+        width: 153%;   
+        margin-left: -48%;  
+    }
+    .textEstablishing{
+        padding-left: 12%;
+        margin-top: -9%;
+    }
+    .hideLogo{
+        margin-left: 39%;
+        margin-top: -15px;
+        width: 144px;
+        position:absolute;
+    }
+} 
+@media (min-width: 868px) and (max-width: 991px){  
+    .fromBlog {
+        padding-left: 7%;
+    }
+    .imgStudent {
+        width: 150%;   
+        margin-left: -25%;     
+    }
+    .textStudent{
+        padding-left: 20%;
+        margin-top: -9%;
+    }
+    .imgEstablishing{
+        width: 153%;   
+        margin-left: -48%;  
+    }
+    .textEstablishing{
+        padding-left: 12%;
+        margin-top: -9%;
+    }
+    .hideLogo{
+        margin-left: 40%;
+        margin-top: -15px;
+        width: 144px;
+        position:absolute;
+    }
+}
+@media (min-width: 991px) and (max-width: 1400px){  
+    .fromBlog {
+        padding-left: 16%;
+    }
+    .textStudent{
+        padding-left: 7%;
+        margin-top: 3%;
+    }
     
-  
- 
-  
-  
-  
+    .textEstablishing{
+        padding-left: 12%;
+        margin-top: 3%;
+    }
+    
+} 
+@media (min-width: 991px){
+    .hideLogo{       
+        display: none;
+    }    
+} 
+@media (max-width: 991px){ 
+    .widthLogo{
+        width: 0px;
+        display: none;
+    }
+    .mobileHome{
+        padding-left: 20px;
+    }  
+} 
   
   
   
