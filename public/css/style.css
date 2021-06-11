@@ -1,14 +1,12 @@
 *{  
     font-family: 'Montserrat', sans-serif;
 }
+ol, ul {
+    padding-left: 0rem;
+}
 .row {
     --bs-gutter-x: -0.5rem;
     --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 .hideLogo{
     width: 0px;
@@ -324,7 +322,7 @@
     color: white;
 }
 .containEnd{
-    margin-left: 3%;
+    margin-left: 14%;
     margin-right: 0%;
     margin-top: 6%;
 }
@@ -376,8 +374,13 @@
     
    
 }
+.textEstablishing{
+    padding-left: 5%;
+}
+
 @media (max-width: 768px) { 
     .menu{
+        padding-top: 15px;
         padding-bottom: 15px;
     }
     .widthLogo{
@@ -540,15 +543,15 @@
     .fromBlog {
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-left: 10%;
+        padding-left: 12%;
     }
     .imgStudent{
-        padding-left: 20% !important;
-        width: 130%;
+        padding-left: 15% !important;
+        width: 125%;
     }
     .imgEstablishing{
-        padding-left: 15% !important;
-        width: 105.5%;
+        padding-left: 12% !important;
+        width: 104.5%;
     }
     .textMonth{
         font-size: 10px !important;
@@ -557,11 +560,12 @@
         font-size: 15px !important;
     }
     .textStudent{
+        padding-left: 14%;
         margin-top: -10%;
     }
     .textEstablishing{
         margin-top: -10%;
-        margin-left: -8%;
+        padding-left: 6%;
     }
     .picEnd{
         width: 100%;
@@ -578,7 +582,9 @@
     .mobileEnd{
         font-size: 10px;
     }
-    
+    .textEstablishing {
+        padding-left: 6%;
+    }
 }
 @media (min-width: 768px) and (max-width: 1268px) {  
     .mobileLoginSeach{
@@ -589,8 +595,7 @@
     }
     .contain{
         margin-left: 0px;
-        margin-right: 0px;
-        
+        margin-right: 0px;        
     }
     .mobileEye{
         margin-left: -7% !important;
@@ -607,7 +612,9 @@
         width: 100%;
         height: 450px;
     }
-    
+    .fromBlog {
+        padding-left: 12%;
+    }
 }  
 @media (max-width: 468px){  
     .bannerAbout{
@@ -620,37 +627,59 @@
     .sunglasses{
         font-size: 18px ;
     }
+    .fromBlog {
+        padding-left: 6%;
+    }
 }  
-@media (max-width: 990px) {
+@media (max-width: 1268px) {
     .hideLogo{
         width: 140px;
         opacity: 1;
-        margin-left: 22%;
-        margin-top: 15px;
+        margin-left: 40%;
+        margin-top: -14px;
     }
 }
 @media (min-width: 468px) and (max-width:1268px){  
     .textStudent {
         margin-top: -10%;
-        margin-left: 10%;
+        padding-left: 20%;
         margin-right: -10%;
         
     }
     .imgStudent{
-        padding-left: 22%;
+        padding-left: 30% !important;
     }
     .imgEstablishing{
-        padding-left: 16% !important;
-        margin-left: 2% !important;
+        padding-left: 25% !important;
+        margin-left: 0% !important;
     }
     .textEstablishing{
         margin-top: -9%;
-        margin-left: 2%;
+        padding-left: 13%;
         margin-right: -10%;
     }
 } 
-  
-  
+@media (min-width: 1268px) and (max-width: 1400px){  
+    .textStudent {
+        padding-left: 5%;        
+    }
+    .textEstablishing{
+        padding-left: 10%;
+    }
+} 
+@media (min-width: 568px) and (max-width: 668px){  
+    .bannerAbout {
+        width: 100%;
+        height: 1000px;
+    }
+} 
+@media (min-width: 468px) and (max-width: 568px){  
+    .bannerAbout {
+        width: 100%;
+        height: 900px;
+    }
+} 
+    
   
  
   
